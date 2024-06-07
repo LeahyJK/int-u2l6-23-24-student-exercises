@@ -1,19 +1,21 @@
 /* CSS styling for code solo */
 
 /* 3. Select the sample-1 class. Using the display property, apply a value of flex. Using the justify-content property, apply a value of flex-start. */
-
+.item-1{
+    display: flex;
+    justify-content: flex-start;
+}
 
 
 /* 4. Select the sample-2 class. Using the display property, apply a value of flex. Using the justify-content property, apply a value of space-between. */
-
+.item-2{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* Add the styling for the spicy task below. */
 /* The image should have a position property with value of fixed, a bottom property with a value of 10px, and a right property with a value of 10px. */
-
-
-
-
 
 /** Styling for the items of Sample 1 **/
 .item-1 {
@@ -30,4 +32,13 @@
     border: 2px solid black;
     background: violet;
 
+}
+
+/** Styling for the item of 'image' **/
+.image{
+    border: 5px solid crimson ;
+    margin: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
